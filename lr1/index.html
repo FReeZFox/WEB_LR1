@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Холодильник</title>
+    <link rel="stylesheet" href="look.css">
+    <script defer src="logic.js"></script>
+</head>
+<body>
+    <h1>Информация о холодильнике</h1>
+
+    <div class="form-container">
+        <button id="createFridge">Создать холодильник</button>
+        <button id="toggleDetails" style="display: none;">Показать характеристики</button>
+        <button id="deleteFridge" style="display: none;">Удалить холодильник</button>
+    </div>
+
+    <div id="fridgeContainer" class="fridge-container" style="display: none;">
+        <img id="fridgeImage" src="closed_fridge.png" alt="Закрытый холодильник" class="fridge-image">
+        <div id="fridgeDetails" class="fridge-details" style="display: none;"></div>
+    </div>
+</body>
+</html>
